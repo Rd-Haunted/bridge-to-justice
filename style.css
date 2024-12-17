@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    li{
+        padding: 0;
+        margin: 0;
+    }
+}
+li{
+    list-style: none;
+}
+
+
+/* header section css */
+
+
+header{
+    background-color: #2A2A2C;
+    height: 84px;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 18px;
+}
+.header_right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_right ul li{
+    margin-left: 37px;
+}
+.header_right ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.header_right ul li:first-child{
+    margin-left: 0px;
+}
+.header_left{
+    margin-top: 24px;
+}
+.header_right{
+    margin-top: 46px;
+}
+
+
+
+/* home page banner section css */
+
+.home_banner_Section{
+    background-color: #2A2A2C;
+    height: 738px;
+    padding-top: 20px;
+}
+.home_banner_Section .banner_section_outer{
+    height: 597px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_banner_Section .banner_section_outer .banner_section_inner h1{
+    font-family: 'Hedvig Letters Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 635px;
+}
+
+
+
+
