@@ -79,7 +79,7 @@ header{
     height: 597px;
     padding-top: 20px;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
 }
 .home_banner_Section .banner_section_outer .banner_section_inner h1{
@@ -92,7 +92,22 @@ header{
     color: #FFFFFF;
     max-width: 635px;
 }
-
-
+.home_banner_Section .banner_section_outer .banner_section_inner a{
+    padding: 18px 35px;
+    background-color: #F8F2EF;
+    display: inline-block;
+    margin-top: 57px;
+    margin-bottom: 148px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2A2A2C;
+}
+.home_banner_Section .banner_section_outer .banner_section_inner .banner_section_inner_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
