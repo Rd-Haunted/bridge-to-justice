@@ -27,6 +27,9 @@ li{
 header{
     background-color: #2A2A2C;
     height: 84px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 .container{
     max-width: 1240px;
@@ -73,8 +76,8 @@ header{
 
 .home_banner_Section{
     background-color: #2A2A2C;
-    height: 689px;
-    padding-top: 20px;
+    height: 758px;
+    padding-top: 105px;
 }
 .home_banner_Section .banner_section_outer::before{
     content: "";
