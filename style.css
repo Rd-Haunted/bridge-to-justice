@@ -19,6 +19,35 @@ ul{
 li{
     list-style: none;
 }
+/* header toggle button */
+header .toggle_btn{
+    display: none;
+}
+header .toggle_btn{
+    margin-top: 20px;
+}
+header .toggle_btn .btn_1{
+    width: 60px;
+    height: 10px;
+    background-color: #F8F2EF;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+header .toggle_btn .btn_2{
+    width: 60px;
+    height: 10px;
+    background-color: #F8F2EF;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 5px 0px 5px 0px;
+}
+header .toggle_btn .btn_3{
+    width: 60px;
+    height: 10px;
+    background-color: #F8F2EF;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
 
 
 /* header section css */
