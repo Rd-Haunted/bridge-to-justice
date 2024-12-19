@@ -8,7 +8,15 @@
   header .toggle_btn{
     display: block;
   }
+.home_banner_Section .banner_section_outer::before{
+    display: none;
+}
+.home_banner_Section .banner_section_outer .banner_section_inner a {
+    &::before{
+        display: none;
+    }
 
+}
   /* home section 2 */
   .home_section_2 .home_section_2_inner .home_section_2_inner_left{
     margin: 0;
@@ -24,8 +32,7 @@
     text-align: center;
   }
   .home_section_2 .home_section_2_inner .home_section_2_inner_left  a{
-   margin: auto;
-   display: block;
+    display: block;
   }
 
   /* home section 3 */
@@ -86,5 +93,47 @@
     }
     .home_section_4_inner_right figure img{
         width: 100%;
+    }
+    .footer_top_inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_top_inner_left h2 {
+        text-align: center;
+    }
+    .footer_top_inner_left p {
+        text-align: center;
+        margin-left: 15px;
+    }
+    .footer_top_inner_right{
+        margin-top: 77px;
+    }
+}
+@media (max-width:422px){
+
+    /* home banner section  */
+    .home_banner_Section .banner_section_outer .banner_section_inner h1 {
+        font-size: 20px;
+    }
+
+    /* home section 2 */
+    .home_section_2 .home_section_2_inner .home_section_2_inner_left h2{
+        font-size: 18px;
+    }
+    .home_section_2 .home_section_2_inner .home_section_2_inner_left p {
+        font-size: 10px;
+    }
+    .home_section_3 .home_section_3_inner .home_section_3_inner_right h2{
+        font-size: 18px;
+    }
+    .home_section_3 .home_section_3_inner .home_section_3_inner_right p{
+        font-size: 10px;
+    }
+    .home_section_4 .home_section_4_inner .home_section_4_inner_left h2{
+        font-size: 18px;
+    }
+    .home_section_4 .home_section_4_inner .home_section_4_inner_left p{
+        font-size: 10px;
     }
 }
