@@ -45,3 +45,26 @@ disclaimer_agree.onclick = () => {
 }
 
 // disclaimer popup agree in js
+
+
+// contact popup in js
+
+let contact_a_open = document.querySelector('.cross_btn_2_open');
+let contact_div_open = document.querySelector('.contact');
+
+contact_a_open.onclick = () => {
+    contact_div_open.classList.toggle("contact_on");
+}
+
+// contact popup in js
+
+// contact cross in js
+
+let contact_cross_2 = document.querySelector('.cross_btn_2');
+let contact_cross_2_close = document.querySelector('.contact');
+
+contact_cross_2.onclick = () => {
+    contact_cross_2_close.classList.remove("contact_on");
+}
+
+// contact cross in js

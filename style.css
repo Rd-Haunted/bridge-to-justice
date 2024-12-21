@@ -1068,9 +1068,22 @@ footer{
 
 
 /* contact */
+.contact_section .contact_on{
+    display: block;
+}
 .contact{
-    margin-top: 60px;
     margin-bottom: 43px;
+    position: fixed;
+    margin-top: 84px;
+    height: 100vh;
+    background: #F8F2EF;
+    z-index: +8;
+    width: 100%;
+    display: none;
+}
+.contact .contact_outer{
+    margin-top: 144px;
+    position: relative;
 }
 .contact_left h1{
     font-family: 'Poppins';
@@ -1079,9 +1092,212 @@ footer{
     font-size: 26px;
     line-height: 30px;
     color: #000000;
+    text-align: center;
+    margin-bottom: 64px;
 }
 .contact_inner{
     display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.contact .name_div{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.contact .number{
+    display: flex;
+    align-items: center;
+    margin: 36px 0px 37px 0px;
+}
+.contact .number{
+    display: flex;
+    align-items: center;
+}
+.contact .name_div_left{
+    display: flex;
+    flex-direction: column;
+}
+.contact .name_div_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.contact .number_left{
+    display: flex;
+    flex-direction: column;
+}
+.contact .number_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.contact .gmail{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.contact .comment_div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+} 
+
+.contact .label_1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contact .label_2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+.contact .label_3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+.contact .label_4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+.contact .label_5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+.contact .label_6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contact .first_name{
+    width: 245px;
+    height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.contact .last_name{
+    width: 245px;
+    height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.contact .mobile_no{
+    width: 245px;
+    height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.contact .conuntry{
+    width: 245px;
+    height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.contact .gmail_input{
+    width: 245px;
+    height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.contact .comments{
+    width: 510px;
+    height: 72px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.contact .btn a{
+    text-align: center;
+    padding: 20px 30px;
+    width: 510px;
+    height: 54px;
+    background: #2A2A2C;
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #F8F2EF;
+}
+
+.contact .contact_right figure img{
+    height: 583px;
+}
+
+.contact .contact_outer{
+    position: relative;
+}
+.contact .cross_btn_2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 60px;
+    top: -77px;
+    z-index: 1;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.contact .cross_btn_2:before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background: #2A2A2C;
+    border-radius: 10px;
+    rotate: 45deg;
+    top: 20px;
+    left: 10px;
+}
+.contact .cross_btn_2:after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background: #2A2A2C;
+    border-radius: 10px;
+    rotate: -45deg;
+    top: 20px;
+    left: 10px;
 }
