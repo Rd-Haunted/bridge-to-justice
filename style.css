@@ -22,6 +22,15 @@ li{
 /* header toggle button */
 header .toggle_btn{
     display: none;
+    position: relative;
+}
+header .toggle_btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 40px;
+    z-index: 1;
 }
 header .toggle_btn{
     margin-top: 20px;

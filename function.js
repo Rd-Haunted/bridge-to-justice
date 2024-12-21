@@ -68,3 +68,11 @@ contact_cross_2.onclick = () => {
 }
 
 // contact cross in js
+
+
+let navtoggle_btn = document.querySelector('.toggle_btn');
+let navlist = document.querySelector('.header_right');
+
+navtoggle_btn.onclick = () => {
+    navlist.classList.toggle("nav_open");
+}
