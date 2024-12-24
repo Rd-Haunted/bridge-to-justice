@@ -24,7 +24,7 @@ header .toggle_btn{
     display: none;
     position: relative;
 }
-header .toggle_btn::before{
+.toggle_btn::after{
     content: "";
     position: absolute;
     top: 0;
@@ -67,7 +67,7 @@ header{
     height: 84px;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 .container{
     max-width: 1240px;
@@ -963,20 +963,31 @@ footer{
     margin-top: 36px;
 }
 /* disclaimer */
-.disclaimer_section .pop_up_on{
+/* .disclaimer_section .pop_up_on{
     display: block;
+}
+.disclaimer_section{
+  color: transparent;
+  width: 0;
+  height: 0;
 }
 .disclaimer_section .disclaimer_none{
     display: none;
 }
 .disclaimer{
     background: #F8F2EF;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: +5;
-    top: 84px;
+    height: 700px;
+    width: 1000px;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
     display: none;
+    left: 50%;
+    right: 50%;
+    transform: translatex(-50%);
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: gray -1px 4px 10px 2px;
 }
 .disclaimer_outer{
     position: relative;
@@ -1073,16 +1084,16 @@ footer{
     rotate: -45deg;
     border-radius: 5px;
     z-index: +8;
-}
+} */
 
 
 /* contact */
-.contact_section .contact_on{
+/* .contact_section .contact_on{
     display: block;
 }
 .contact{
     margin-bottom: 43px;
-    position: fixed;
+    position: absolute;
     margin-top: 84px;
     height: 100vh;
     background: #F8F2EF;
@@ -1309,4 +1320,4 @@ footer{
     rotate: -45deg;
     top: 20px;
     left: 10px;
-}
+} */
