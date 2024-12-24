@@ -48,8 +48,8 @@
     display: inline-block;
     font-size: 20px;
   }
-  .header_right ul li a:hover li{
-    border-bottom: 2px solid #F8F2EF;
+  .header_right ul li{
+    border-bottom: 2px solid gray;
   }
 .home_banner_Section .banner_section_outer::before{
     display: none;
