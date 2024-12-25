@@ -70,10 +70,12 @@
   }
   .home_section_2 .home_section_2_inner .home_section_2_inner_left p{
     text-align: center;
+    max-width: 100%;
   }
   .home_section_2 .home_section_2_inner .home_section_2_inner_left h2{
     margin-top: 77px;
     text-align: center;
+    max-width: 100%;
   }
   .home_section_2 .home_section_2_inner .home_section_2_inner_left  a{
     display: block;
@@ -87,12 +89,14 @@
   .home_section_3 .home_section_3_inner .home_section_3_inner_right h2{
     text-align: center;
     margin-top: 77px;
+    max-width: 100%;
   }
   .home_section_3 .home_section_3_inner .home_section_3_inner_right{
     margin-right: 0px;
 }
 .home_section_3 .home_section_3_inner .home_section_3_inner_right p{
     text-align: center;
+    max-width: 100%;
 }
 .home_section_3 .home_section_3_inner .home_section_3_inner_right .home_section_3_inner_right_btn{
     justify-content: center;
@@ -112,10 +116,12 @@
   }
   .home_section_4 .home_section_4_inner .home_section_4_inner_left p{
     text-align: center;
+    max-width: 100%;
   }
   .home_section_4 .home_section_4_inner .home_section_4_inner_left h2{
     margin-top: 77px;
     text-align: center;
+    max-width: 100%;
   }
   .home_section_4 .home_section_4_inner .home_section_4_inner_left  a{
    margin: auto;
@@ -129,10 +135,12 @@
   }
   .about_section_1_top_left h1{
     text-align: center;
+    max-width: 100%;
   }
   .about_section_1_top_left p{
     text-align: center;
     margin-bottom: 50px;
+    max-width: 100%;
   }
 
   .about_section_1_bottom{
@@ -140,10 +148,12 @@
   }
   .about_section_1_bottom_right h2{
     text-align: center;
+    max-width: 100%;
   }
   .about_section_1_bottom_right p{
     text-align: center;
     margin-bottom: 50px;
+    max-width: 100%;
   }
 
 
@@ -157,15 +167,19 @@
   .about_section_2_inner_left h2{
     margin-top: 77px;
     text-align: center;
+    max-width: 100%;
   }
   .about_section_2_inner_left p{
     text-align: center;
+    max-width: 100%;
   }
   .about_section_2_inner_right h3{
     text-align: center;
+    max-width: 100%;
   }
   .about_section_2_inner_right p{
     text-align: center;
+    max-width: 100%;
   }
 
 
@@ -177,9 +191,11 @@
   .about_section_3_top_right h2 {
     text-align: center;
     margin-top: 36px;
+    max-width: 100%;
   }
   .about_section_3_top_right p{
     text-align: center;
+    max-width: 100%;
 
   }
   .about_section_3_bottom {
@@ -189,9 +205,11 @@
   .about_section_3_bottom_left h3{
     text-align: center;
     margin-top: 36px;
+    max-width: 100%;
   }
   .about_section_3_bottom_left p{
     text-align: center;
+    max-width: 100%;
   }
 
   /* about section 4 */
