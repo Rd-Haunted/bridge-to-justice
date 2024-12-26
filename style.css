@@ -20,6 +20,9 @@ li{
     list-style: none;
 }
 /* header toggle button */
+header .nav_off{
+    display: none;
+}
 header .toggle_btn{
     display: none;
     position: relative;

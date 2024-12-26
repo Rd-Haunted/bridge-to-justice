@@ -60,6 +60,16 @@ disclaimer_agree.onclick = () => {
 
 
 
+// disclaimer backgroount click to hide
+let disclaimer_inner = document.querySelector('.disclaimer');
+let disclaimer_outer = document.querySelector('.disclaimer');
+
+disclaimer_inner.onclick = () => {
+    disclaimer_outer.classList.remove("pop_up_on");
+}
+
+// disclaimer backgroount click to hide
+
 // contact popup in js
 
 // let contact_a_open = document.querySelector('.cross_btn_2_open');
@@ -89,3 +99,4 @@ let navlist = document.querySelector('.header_right');
 navtoggle_btn.onclick = () => {
     navlist.classList.toggle("nav_open");
 }
+
