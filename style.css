@@ -989,17 +989,21 @@ footer {
   text-align: center;
   margin-top: 62px;
 }
-.disclaimer .disclaimer_outer .disclaimer_inner .cross_btn {
+.disclaimer .disclaimer_outer .disclaimer_inner .cross_btn{
   font-size: 80px;
   font-weight: 900;
   color: #2a2a2c;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   margin-right: 20px;
   &:hover {
     cursor: pointer;
   }
+}
+
+.disclaimer .disclaimer_outer .disclaimer_inner .cross_btn_outer {
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 .disclaimer .disclaimer_outer .disclaimer_inner p {
   font-family: "Poppins";
@@ -1069,6 +1073,9 @@ footer {
   transform: translate(-50%, -50%);
   width: 1180px;
   height: 800px;
+}
+@keyframes{
+
 }
 .contact {
   position: fixed;
@@ -1257,8 +1264,12 @@ footer {
 .contact .contact_right figure img {
   height: 583px;
 }
-
-.contact .cross_btn_2 {
+.contact .cross_btn_2_outer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.contact .cross_btn_2{
   font-size: 80px;
   color: #2a2a2c;
   text-align: right;
