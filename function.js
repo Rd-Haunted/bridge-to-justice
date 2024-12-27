@@ -13,11 +13,11 @@ disclaimerpop_on.onclick = () => {
 
 // popup one start then body position fixed
 // let scroll_popup_one_open = document.querySelector('.pop_up_on');
-// let scrool_popup_one_close = document.querySelector('.outer_body');
+// let scrool_popup_one_close = document.querySelector('body');
 
 //     scroll_popup_one_open.onmousewheel = () => {
 //         scrool_popup_one_close.classList.add('body_use');
-// };
+//  
 // popup one start then body position fixed
 
 

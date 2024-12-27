@@ -58,6 +58,9 @@ header .toggle_btn .btn_3 {
   border-radius: 10px;
   border: 2px solid gray;
 }
+.body_use{
+  position: fixed;
+}
 /* header section css */
 
 header {
