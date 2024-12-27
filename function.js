@@ -35,12 +35,12 @@ disclaimer_agree.onclick = () => {
 // disclaimer popup user agree button
 
 // disclaimer backgroount click to hide
-// let disclaimer_inner = document.querySelector(".disclaimer");
-// let disclaimer_outer = document.querySelector(".disclaimer");
+let disclaimer_inner = document.querySelector(".disclaimer");
+let disclaimer_outer = document.querySelector(".disclaimer");
 
-// disclaimer_inner.onclick = () => {
-//   disclaimer_outer.classList.remove("pop_up_on");
-// };
+disclaimer_inner.onclick = () => {
+  disclaimer_outer.classList.remove("pop_up_on");
+};
 // disclaimer backgroount click to hide
 
 // contact popup open link click
@@ -52,12 +52,12 @@ contact_open.onclick = () => {
 };
 // contact popup open link click
 
-// let contact_outer_open = document.querySelector(".contact");
-// let contact_outer_close = document.querySelector(".contact");
+let contact_outer_open = document.querySelector(".contact");
+let contact_outer_close = document.querySelector(".contact");
 
-// contact_outer_open.onclick = () => {
-//   contact_outer_close.classList.remove("contact_on");
-// };
+contact_outer_open.onclick = () => {
+  contact_outer_close.classList.remove("contact_on");
+};
 
 //  contact cross button click close
 let contact_cross_2 = document.querySelector(".cross_btn_2");
@@ -77,6 +77,7 @@ navtoggle_btn.onclick = () => {
 };
 // nav bar toggle buttoon open
 
+
 // mouse scroll-ing then navbar is hidden
 let navtoggle_outer_body_open = document.querySelector("body");
 let navlist_outer_body_close = document.querySelector(".header_right");
@@ -86,4 +87,18 @@ navtoggle_outer_body_open.onmousewheel = () => {
 };
 // mouse scroll-ing then navbar is hidden
 
+// using stopPropagation to stop the onclick function in disclaimer_outer
+let disclaimer_popup_outer_close = document.querySelector('.disclaimer_outer');
 
+    disclaimer_popup_outer_close.addEventListener('click', (e) => {
+      e.stopPropagation();
+});
+// using stopPropagation to stop the onclick function in disclaimer_outer
+
+
+// using stopPropagation to stop the onclick function in contact_outer
+let contact_section_outer_close = document.querySelector(".contact_outer");
+
+contact_section_outer_close.addEventListener('click', (e) => {
+  e.stopPropagation();
+});
