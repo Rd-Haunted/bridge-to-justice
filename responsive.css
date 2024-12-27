@@ -727,7 +727,8 @@
     height: 550px;
   }
   .contact .cross_btn_2 {
-    margin-right: 0px;
+    margin-right: 15px;
+    font-size: 60px;
   }
   .contact .btn a {
     width: 310px;
