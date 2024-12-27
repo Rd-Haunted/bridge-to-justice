@@ -7,24 +7,6 @@ disclaimerpop_on.onclick = () => {
 };
 // disclaimer popup javascript
 
-
-
-
-
-// popup one start then body position fixed
-// let scroll_popup_one_open = document.querySelector('.pop_up_on');
-// let scrool_popup_one_close = document.querySelector('body');
-
-//     scroll_popup_one_open.onmousewheel = () => {
-//         scrool_popup_one_close.classList.add('body_use');
-//  
-// popup one start then body position fixed
-
-
-
-
-
-
 // disclaimer popup close use cross button
 let disclaimer_cross_on = document.querySelector(".cross_btn");
 let disclaimer_cross_of = document.querySelector(".disclaimer");
@@ -103,4 +85,3 @@ navtoggle_outer_body_open.onmousewheel = () => {
   navlist_outer_body_close.classList.remove("nav_open");
 };
 // mouse scroll-ing then navbar is hidden
-
