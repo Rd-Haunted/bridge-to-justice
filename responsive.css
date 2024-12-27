@@ -24,7 +24,6 @@
   }
 
   /* contact section responsive */
-
   .contact_outer {
     width: 900px;
     height: 700px;
@@ -732,6 +731,10 @@
   }
   .contact .btn a {
     width: 310px;
+  }
+  .contact .contact_right figure img{
+    width: 315px;
+    height: 396px;
   }
   .contact .first_name {
     width: 310px;
