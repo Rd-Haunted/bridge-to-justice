@@ -95,20 +95,12 @@ navtoggle_btn.onclick = () => {
 };
 // nav bar toggle buttoon open
 
-// nav bar click outer body then close the navbar
+// mouse scroll-ing then navbar is hidden
 let navtoggle_outer_body_open = document.querySelector("body");
 let navlist_outer_body_close = document.querySelector(".header_right");
 
-navtoggle_outer_body_open.onclick = () => {
+navtoggle_outer_body_open.onmousewheel = () => {
   navlist_outer_body_close.classList.remove("nav_open");
 };
-// nav bar click outer body then close the navbar
-
 // mouse scroll-ing then navbar is hidden
-let navtoggle_outer_open = document.querySelector("body");
-let navlist_outer_close = document.querySelector(".header_right");
 
-navtoggle_outer_open.onmousewheel = () => {
-  navlist_outer_close.classList.remove("nav_open");
-};
-// mouse scroll-ing then navbar is hidden
