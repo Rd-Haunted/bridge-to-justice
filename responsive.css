@@ -689,6 +689,8 @@
     margin-top: 0px;
     margin-bottom: 50px;
   }
+
+  br{display: none;}
 }
 
 @media (max-width: 924px) {
@@ -823,6 +825,10 @@
     margin-top: 77px;
   }
 
+.contact_right{
+  display: none;
+}
+  
   /* about sectin 4 */
   .about_section_4_inner .row .col {
     width: 100%;
