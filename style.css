@@ -780,11 +780,31 @@ footer {
   line-height: 18px;
   text-align: center;
   color: #ffffff;
+  max-width: 1035px;
+  margin: auto;
 }
 .services_banner_section_inner_bottom figure img {
   border-radius: 15px;
   width: 1215px;
   margin: 32px 0px 64px 0px;
+}
+.services_banner_section_inner_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 391px;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+.services_banner_section_inner_bottom_inner h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 772px;
 }
 
 /* services_section_2 */
@@ -824,7 +844,6 @@ footer {
   line-height: 18px;
   text-align: right;
   color: #2a2a2c;
-  max-width: 449px;
   margin-top: 36px;
 }
 .services_section_2_bottom_left h3 {
@@ -842,7 +861,7 @@ footer {
   font-size: 13px;
   line-height: 18px;
   color: #2a2a2c;
-  max-width: 449px;
+  max-width: 439px;
   margin-top: 36px;
 }
 
@@ -901,7 +920,7 @@ footer {
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
-  max-width: 449px;
+  max-width: 450px;
   margin-top: 36px;
 }
 
@@ -960,7 +979,7 @@ footer {
   font-size: 13px;
   line-height: 18px;
   color: #2a2a2c;
-  max-width: 449px;
+  max-width: 450px;
   margin-top: 36px;
 }
 
@@ -1078,7 +1097,7 @@ footer {
   font-size: 13px;
   line-height: 18px;
   color: #2a2a2c;
-  max-width: 449px;
+  max-width: 451px;
   margin-top: 36px;
 }
 
