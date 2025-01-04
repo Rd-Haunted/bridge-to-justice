@@ -33,9 +33,9 @@ header .toggle_btn {
   height: 40px;
   z-index: 1;
 }
-header .toggle_btn {
+/* header .toggle_btn {
   margin-top: 20px;
-}
+} */
 header .toggle_btn .btn_1 {
   width: 60px;
   height: 10px;
@@ -59,10 +59,13 @@ header .toggle_btn .btn_3 {
   border: 2px solid gray;
 }
 /* header section css */
-
+.header_left a img{
+  width: 90px;
+  height: 90px;
+}
 header {
   background-color: #2a2a2c;
-  height: 84px;
+  height: 107px;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -78,7 +81,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #ffffff;
-  padding-bottom: 18px;
+  margin-top: 10px;
 }
 .header_right ul {
   display: flex;
@@ -99,12 +102,12 @@ header {
 .header_right ul li:first-child {
   margin-left: 0px;
 }
-.header_left {
+/* .header_left {
   margin-top: 24px;
-}
-.header_right {
+} */
+/* .header_right {
   margin-top: 46px;
-}
+} */
 
 /* home page banner section css */
 
