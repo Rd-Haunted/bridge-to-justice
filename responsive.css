@@ -837,9 +837,11 @@
   /* about section banner */
   .about_section_1_top_right figure img {
     width: 100%;
+    height: 300px;
   }
   .about_section_1_bottom_left figure img {
     width: 100%;
+    height: 300px;
   }
 
   /* about section 3 */
