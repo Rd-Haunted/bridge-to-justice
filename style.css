@@ -36,6 +36,9 @@ header .toggle_btn {
 /* header .toggle_btn {
   margin-top: 20px;
 } */
+.outer_div.body_fix{
+  display: none;
+ }
 header .toggle_btn .btn_1 {
   width: 40px;
   height: 5px;

@@ -46,17 +46,21 @@ disclaimer_inner.onclick = () => {
 // contact popup open link click
 let contact_open = document.querySelector(".contact_toggle");
 let contact_close = document.querySelector(".contact");
+let contact_display_none_by_body = document.querySelector(".outer_div");
 
 contact_open.onclick = () => {
   contact_close.classList.toggle("contact_on");
+  contact_display_none_by_body.classList.toggle("body_fix");
 };
 // contact popup open link click
 
 let contact_outer_open = document.querySelector(".contact");
 let contact_outer_close = document.querySelector(".contact");
 
+
 contact_outer_open.onclick = () => {
   contact_outer_close.classList.remove("contact_on");
+  
 };
 
 //  contact cross button click close
@@ -65,27 +69,22 @@ let contact_cross_2_close = document.querySelector(".contact");
 
 contact_cross_2.onclick = () => {
   contact_cross_2_close.classList.remove("contact_on");
+  
 };
 //  contact cross button click close
 
-// nav bar toggle buttoon open
-let navtoggle_btn = document.querySelector(".toggle_btn");
-let navlist = document.querySelector(".header_right");
 
-navtoggle_btn.onclick = () => {
+// nav bar toggle buttoon open
+let navlist = document.querySelector(".header_right");
+let display_none_by_body = document.querySelector(".outer_div");
+let display_none_by_work = document.querySelector(".toggle_btn")
+
+display_none_by_work.onclick = () => {
+  display_none_by_body.classList.toggle("body_fix");
   navlist.classList.toggle("nav_open");
 };
 // nav bar toggle buttoon open
 
-
-// mouse scroll-ing then navbar is hidden
-let navtoggle_outer_body_open = document.querySelector("body");
-let navlist_outer_body_close = document.querySelector(".header_right");
-
-navtoggle_outer_body_open.onmousewheel = () => {
-  navlist_outer_body_close.classList.remove("nav_open");
-};
-// mouse scroll-ing then navbar is hidden
 
 // using stopPropagation to stop the onclick function in disclaimer_outer
 let disclaimer_popup_outer_close = document.querySelector('.disclaimer_outer');
